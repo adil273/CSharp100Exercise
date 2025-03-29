@@ -4,7 +4,7 @@ public class Car
     public string brand;
     public int speed;
 
-    public void ShowInfo()
+    public void ShowCar()
     {
         Console.WriteLine($"Car Brand: {brand}, Speed: {speed} km/h");
     }

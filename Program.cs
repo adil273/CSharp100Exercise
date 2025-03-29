@@ -15,9 +15,23 @@ class Program
     static void Main()
     {
         Car myCar = new Car();
-        myCar.brand = "Toyota";
-        myCar.speed = 120;
-        myCar.ShowInfo();  // Output: Car Brand: Toyota, Speed: 120 km/h
+        myCar.brand = "Honda";
+        myCar.speed = 100;
+        myCar.ShowCar();  // Output: Car Brand: Toyota, Speed: 120 km/h
+        
+        Bike myBike = new Bike();
+        myBike.brand="Honda";
+        myBike.speed=90;
+        myBike.model=2025;
+        myBike.ShowBike();
+
+        Van myVan= new Van();
+        myVan.brand="Suzuki";
+        myVan.model="2025";
+        myVan.speed="90";
+        myVan.ShowVan();
+
     }
+    
 }
 
