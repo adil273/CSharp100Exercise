@@ -14,6 +14,7 @@ class Program
 {
     static void Main()
     {
+<<<<<<< HEAD
 // example # 1
         Car myCar = new Car();
         myCar.brand = "Honda";
@@ -33,6 +34,13 @@ class Program
         myVan.model="2025";
         myVan.speed="90";
         myVan.ShowVan();
+=======
+        Scooter myScooter=new Scooter();
+        myScooter.brand="Kawasaki";
+        myScooter.price=120000;
+        myScooter.model=2020;
+        myScooter.ShowScooter();
+>>>>>>> c76bfb1ef89de976ac1d92150f19d5538d3e98f9
 
 // example # 4
         Scooter myScooter= new Scooter();
